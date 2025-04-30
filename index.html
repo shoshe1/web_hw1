@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -17,8 +18,8 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="ourproducts.html">Our books</a></li>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="ourproducts.html" >Our books</a></li>
                         <li><a href="#cards">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -28,8 +29,9 @@
     </header>
     <main>
         <section class="hero">
-            <img src="images/books.jpg" alt="Hero Image">
-            <div class="hero-text">
+			<img src="images/books.jpg" 
+			srcset="images/books@2x.jpg 2x, images/hero@3x.jpg 3x" 
+			alt="Hero Image">            <div class="hero-text">
                 <h1>Enjoy!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi mauris arcu aenean in mauris elementum
                     sed non.</p>
@@ -158,34 +160,28 @@
     </main>
 
     
-</body>
+
+
 
 <footer>
-    <div class="footer-columns">
-        <div class="column">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Genres</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h3>Social Media</h3>
-            <ul>
-                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="social-icons">
-        <a href="https://www.facebook.com" target="_blank"><img src="images/Vector.png" alt="Facebook Icon"></a>
+    <section class="footer_item">
+        <h3>WHO WE ARE</h3>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">About Us</a>
+        <section class="footer_icon_links">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/Vector.png" alt="Facebook Icon"></a>
         <a href="https://www.twitter.com" target="_blank"><img src="images/Vector (1).png" alt="Twitter Icon"></a>
         <a href="https://www.instagram.com" target="_blank"><img src="images/Vector (2).png" alt="Instagram Icon"></a>
-    </div>
-    <p>&copy; 2024 Book Haven. All rights reserved.</p>
+        </section>
+        <span>© 2025 Book.</span>
+    </section>
+    <section class="footer_item">
+        <h3>FOLLOW US</h3>
+        <a href="https://www.twitter.com/" target="_blank">Twitter</a> 
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </section>
 </footer>
-
-
+</body>
 </html>
