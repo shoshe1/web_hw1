@@ -318,3 +318,95 @@ nav ul li:first-child a {
 .social-icons a:hover {
     color: #8A2BE2;
 }
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-columns .column {
+    width: 45%;
+    text-align: left;
+}
+
+.footer-columns .column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-columns .column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-columns .column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-columns .column ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-columns .column ul li a:hover {
+    color: #8A2BE2;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #8A2BE2;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-columns .column {
+    width: 45%;
+    text-align: left;
+}
+
+.footer-columns .column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-columns .column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-columns .column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-columns .column ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-columns .column ul li a:hover {
+    color: #8A2BE2;
+}
